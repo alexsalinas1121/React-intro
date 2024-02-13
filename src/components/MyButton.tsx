@@ -1,8 +1,9 @@
 import React from 'react'
+import './MyButton.css'
 
 const MyButton: React.FC = () => {
     return (
-      <button>I'm a button</button>
+      <button className='blue'>I'm a button</button>
     );
   }
 
